@@ -1,44 +1,107 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color: #445760;
-    font-family: Arial, Helvetica, sans-serif
+body {
+  background-color: #445760;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
-    width: 100%;
-    height: 60px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 header nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header nav .nav-right-section {
+  width: 250px;
+  height: auto;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-img-profile {
+  width: 48px;
+}
+
+.main-container {
+  /* width: 100%; */
+  /* height: 50vh;
+margin-top: 1rem;
+display:grid;
+place-content: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  height: 40vh;
+  justify-content: space-around;
+}
+
+.logo-google {
+  width: 270px;
+}
+
+.main-section-search {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-section-search .main-div-container {
+  width: 530px;
+  height: 40px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 2px 20px;
+  box-shadow:3px 3px 10px rgba(0, 0, 0, 0.2) ;
+}
+
+img.search-icon {
+  width: 22px;
+}
+
+img.microphone-icon {
+  width: 13px;
+}
+
+.input-search-container{
+    width: 70%;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
 }
 
-header nav .nav-right-section{
-width: 250px;
-height: auto;
-display: flex;
-list-style: none;
-justify-content: space-evenly;
-align-items: center;
-margin-right: 10px;
+.input-search-container input{
+    margin-left: 6px;
+    border: none;
+    width: 70%;
 }
 
-a{
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
+::placeholder{
+    font-size: 14px;
 }
 
-.nav-img-profile{width: 48px;}
-
-
-
+main img {
+  width: 30px;
+}
