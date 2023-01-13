@@ -104,10 +104,11 @@ img.microphone-icon {
 }
 
 .main-section-apps{
-    width: 20%;
+    /* width: 30%; */
     /* background-color: #22262856; */
     display: flex;
     justify-content: space-around;
+    flex-flow: row wrap;
 }
 
 .app-div{
