@@ -36,10 +36,11 @@ a {
   color: white;
   text-decoration: none;
   cursor: pointer;
+  font-size: 14px;
 }
 
 .nav-img-profile {
-  width: 48px;
+  width: 40px;
 }
 
 .main-container {
@@ -102,6 +103,53 @@ img.microphone-icon {
     font-size: 14px;
 }
 
-main img {
-  width: 30px;
+.main-section-apps{
+    width: 20%;
+    /* background-color: #22262856; */
+    display: flex;
+    justify-content: space-around;
 }
+
+.app-div{
+    height: 80px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 6px;
+}
+
+.app-div:hover{
+border-radius: 8px;
+background-color:#576870;
+}
+
+.app-div p{
+    color: white;
+    font-size: 13px;
+}
+
+.app-div div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #36464D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook{
+    width: 30px;
+    border-radius: 50%;
+}
+
+.youtube{
+    width: 47px;
+}
+
+.logo {
+  width: 25px;
+}
+
